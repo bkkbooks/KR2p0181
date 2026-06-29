@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR2p0181/v1
+canonical_location: https://kanripo.org/bkk/KR2p0181/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 語叢一
+  identifiers:
+    krp: KR2p0181
+  tags:
+    tls-internal: swl
+    kr-categories: KR2p
+  source:
+    repository: tls-texts
+    path: data/tls/KR2p0181.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR2p0181_001.yaml, hash: 'sha256:6c07c70e1adec5fa5a70561554d8bbef3c867b0609c35d377493180c6a19474b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2p0181_001.markers.yaml, hash: 'sha256:f6376bf2507d5d1050e0e81087739586465b95a82f0958909a90e43591bae941'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2p0181_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 724
+  label: 郭店楚簡十五語叢一
+  type: section
+  level: 1
+hash: sha256:bc1fd14b9aae079351c58fbc41ae07bbb4417d666ceec544d2efe6c1c977af34
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
