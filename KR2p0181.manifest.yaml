@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR2p0181/v1
 canonical_location: https://kanripo.org/bkk/KR2p0181/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 語叢一
   identifiers:
@@ -17,9 +17,9 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR2p0181_001.yaml, hash: 'sha256:68d1b2fd04321ea54926830ae4a10c8fd96c4a8d71ea02320212e95206076ad1'}
+  - {seq: 1, filename: KR2p0181_001.yaml, hash: 'sha256:9e9cce45dec1eab26c57d34406bb84bc0f7833a59af9da87d93490f46fe3cb50'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR2p0181_001.markers.yaml, hash: 'sha256:62dc2e4a892b5238c2be7562b72f98078bc444a2e509d339615fbaf8b4074c9f'}
+  - {seq: 1, role: markers, filename: assets/KR2p0181_001.markers.yaml, hash: 'sha256:965417b8ece64a0d077d582cf78a8c38ddaef1499c481de22ab8d00493fc569f'}
 table_of_contents:
 - ref:
     seq: 1
@@ -31,4 +31,7 @@ table_of_contents:
   label: 郭店楚簡十五語叢一
   type: section
   level: 1
-hash: sha256:81aaa39980f99382c61cde683fb81d095fadc3bc6bc52b06b14330bd4db0a121
+hash: sha256:3151cfba349c1e351a901792315008fada8b553334226a37067cdac21a408ee2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
